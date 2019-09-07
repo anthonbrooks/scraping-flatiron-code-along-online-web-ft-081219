@@ -26,7 +26,7 @@ class Scraper
   
   def make_courses
     Course.all.each do |course|
-      
+      course.title = :title
     end 
   end 
 end
