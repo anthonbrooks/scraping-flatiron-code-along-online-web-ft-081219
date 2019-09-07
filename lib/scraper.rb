@@ -24,6 +24,9 @@ class Scraper
     @@doc.css('.post')
   end 
   
+  def make_courses
+    
+  end 
 end
 
 
